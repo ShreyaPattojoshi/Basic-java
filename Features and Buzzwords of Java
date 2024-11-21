@@ -1,0 +1,69 @@
+✳️FEATURES OF JAVA: Lets understand the features and some buzzwords of java for a clear understanding of further topics!
+
+⏩Simple:
+Java is simple programming language because of the following factors.
+Java programming language eliminates a complex concept called pointers hence we are able to develop the 
+application with less time and it will take less execution time because of magic of Byte code.
+
+🌟Byte Code: Byte code is set of optimized instructions generated during compilation phase by the java 
+compiler and nature of byte code is so powerful than ordinary pointer code.
+
+⏩Java programming environment contains inbuilt garbage collector program.
+Garbage Collector: Is a system background java program which is running along with our regular java program 
+for collecting un-used/un-reference memory space and it improves the performance if java application.
+
+⏩Platform Independent: The language/technology related application are said to platformindependent if and 
+only if those application run on every operating systems without considering their providers /vendors.
+
+⏩Architecture Neutral: Java’s byte code is not machine dependent. It can run on any machine
+with any processor and any operating system.
+
+⏩Portable: Java does not have implemented-dependent aspects. So the results will be same on
+all machine, portable means yielding same results on different machines.
+
+⏩Multithreading: The basic aim of multithreading is to achieve the concurrent execution which means it can
+have multiple users at the same time. A flow of control in java is known as thread.
+
+⏩Networked: To share the data between multiple machines which are located either in same
+network or in different network, Intranet application will be developed by J2SE with network
+programming concept.
+
+⏩Distributed: According to real world project, java project are classified into 2 types
+i. Centralized Application.
+ii. Distributed Application.
+➡️Centralized application: Centralized application are those which runs in the context of
+single server and their result can be accessible across the globe and they are operated by
+authorized people only. (Banking , insurance ...)
+➡️Distributed application: which runs in the context of multiple servers and result are
+accessible across the globe and they are operated by both authorized and unauthorized
+user.
+
+⏩High Performance: Java is one of the high performance programming language
+because of the following factors
+i. Automatic memory management due to inbuilt garbage collector.
+ii. Java is free from pointers.
+iii. Due to JIT which enhances the speed of the execution.
+JIT: JIT(Just in time compiler) is a program to speed up the interpretation phase by reading the entire section 
+of byte code.
+
+⏩Robust:java programs will not crash because of its exception handling and its memory
+management features.
+
+⏩Secure: Security is one of the principal in IT world for preventing / protecting  the unauthorized
+modification on confidential data. The language like Java and .Net are treated has high secured
+programming language because their API contains readily available security programs in apackage called javaX.security.*;
+
+⏩Dynamic: In any programming language, if we write a program and that program accepts input then the input of 
+program is stored in the main memory by allocating sufficient amount of memory space.
+In any programming language memory allocation can be done in 2 ways
+i. Static Memory Allocation.
+ii. Dynamic Memory Allocation.
+i) Static Memory Allocation is one in which memory will be allocated for the impact of the program at compile time because of 
+static Memory allocation we get the following drawbacks:
+a. Waste of memory space.
+b. Loss of Data.
+c. Overlapping of Existing Data.
+ii) Dynamic Memory Allocation is one in which memory will be allocated for the input of the program at run time .
+✅Java follows only dynamic memory allocation but not static memory allocation.
+✅To allocate the memory space dynamically is java programming we use operator called new.
+
