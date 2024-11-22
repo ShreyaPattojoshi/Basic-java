@@ -1,0 +1,84 @@
+
+⏩DATATYPES
+• Datatypes are used to create variables of specific type.
+• In java datatypes are classified into two types.
+1. Primitive datatypes
+2. Non-primitive datatypes
+➡️PRIMITIVE DATA TYPE :
+The data type which is used to create a variable to store primitive value such as numbers, characters, boolean is known as primitive data type.
+
+💥NOTE : 
+°All primitive data types are keyword in java.
+°The number data type in increasing order of the capacity.
+°byte < short < int < long < float < double
+
+➡️NON PRIMITIVE DATA TYPE :
+The data type which is used to create a non primitive variable to store the reference is known as non primitive data type.
+
+💥NOTE : Every class name in java is non a primitive dataype.
+
+⏩VARIABLES :
+Variable is a container which is used to store a single value. We have two 
+types of variables, they are
+● Primitive variable.
+● Non-Primitive variable.
+
+➡️PRIMITIVE VARIABLE :
+• The variable which is used to store a primitive value such as numbers, character, boolean is known as primitive variable.
+• We can create primitive variable with the help of primitive data type.
+Syntax to create primitive variable :
+datatype identifier1 , identifier2 , … ;
+primitive datatype identifier1 , identifier2, … ;
+Example : int a ; … ---> primitive variable of int type.
+boolean b ; --->primitive variable of boolean type.
+
+➡️NON PRIMITIVE VARIABLE :
+• The variable which is used to store a reference is known as Non primitive variable.
+• It is also known as reference variable.
+Syntax to create a non primitive variable :
+Non Primitive datatype identifier1 , identifier2 , … ;
+EXAMPLE :
+String s = new String();
+
+⏩SCOPE OF A VARIABLE :
+• The visibility of a variable is known as scope of a variable.
+• Based on scope of a variable we can categorize variable in three types.
+1. Local variable.
+2. Static variable.
+3. Non static variable (Instance).
+
+✅LOCAL VARIABLE :
+The variable declared inside a method block or any other block except class block is 
+known as local variable.
+CHARACTERISTICS OF LOCAL VARIABLE :
+● We can’t use local variables without initialization, if we try to use local variable without initialization then we will get compile time error.
+● Local variables will not be initialized with default values.
+● The scope of the local variable is nested inside the block wherever it is declared, hence it can’t be used outside the block.
+
+💠TYPE CASTING :
+The process of converting one type of data into another type is known as 
+Type casting.
+There are two types of type casting :
+1) PRIMITIVE TYPE CASTING
+1) Widening ( Implicit )
+2) Narrowing ( Explicit )
+2) NON PRIMITIVE TYPECASTING
+1) Upcasting ( Implicit )
+2) Downcasting ( Explicit )
+
+✳️PRIMITIVE TYPE CASTING :
+The process of converting one primitive value into another primitive value is known as primitive type casting
+✳ WIDENING :
+● The process of converting smaller range of primitive data type into larger range of primitive data type is called widening.
+● In widening process there is no data loss.
+● Since there is no data loss, compiler can implicitly do widening hence it is 
+also known as auto widening.
+✳ NARROWING :
+● The process of converting larger range of primitive data type into smaller range of primitive data type is known as Narrowing. 
+● In narrowing process there is a possibility of data loss.
+● Since there is a possibility of data loss, compiler does not do narrowing implicitly .
+● It can be done explicitly by the programmer with the help of type cast operator.
+
+✳️TYPECAST OPERATOR :
+● It is a unary operator(Only one operand)
+● Type cast operator is used to explicitly convert one datatype into another data type.
