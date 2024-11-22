@@ -1,0 +1,97 @@
+💥Understanding tokens and its types:💥
+
+⏩TOKENS: The smallest unit of programming language which is used to compose instructions is known as tokens.
+TYPES OF TOKENS :
+➡️Keywords.
+➡️identifiers.
+➡️Literals / Data / values.
+
+✳️KEYWORDS :
+• A predefined words which the java compiler can understand is known as keyword.
+• Every keyword in java is associated with a specific task.
+• A programmer can’t change the meaning of a keyword (can’t modify the 
+associated task).
+EXAMPLE :
+We have 50+ keywords in java,
+class , public , static , void , etc. ,.
+
+💥RULE : Keywords are always written in lower case.
+
+✳️IDENTIFIERS :
+The name given to the components of java by the programmer is known as identifiers.
+LIST OF COMPONENTS :
+• class
+• method
+• variables
+• interface etc…
+
+💥NOTE : A programmer should follow the rules and convention of an identifier.
+🌟RULES OF AN IDENTIFIERS :
+• Identifiers should never starts with a number.
+• Identifiers should not have special characters except _ and $.
+• Character space is not allowed in an identifiers.
+• We can’t use keyword as an identifiers.
+
+✳️CONVENTIONS :
+The coding or industrial standards to be followed by the programmer is known
+as convention.
+
+💥NOTE :
+• Compiler doesn’t validate the convention , Therefore if conventions is not followed then we won’t get compile time error.
+• It is highly recommended to follow the convention.
+
+💠CONVENTION FOR CLASS NAME :
+Single word - The first word should be in upper case remaining in lower case. 
+Example : Addition , Calculator , Sum , etc…
+Multi word – The first character of every word should be in upper case remaining in lower case.
+Example : SquareRoot , PowerOfDigit , FactorialOfDigits , etc…
+
+💠CONVENTION FOR METHODS AND VARIABLES NAME :
+Single word - Should be in lower case 
+Example : addition , subtraction,etc,.
+Multi word – First word should be in lowercase remaining words should start with uppercase..
+Example : squareRoot , powerOfDigit , factorialOfDigits , etc…
+
+💠CONVENTION FOR CONSTANT VARIABLE :
+Single word - Should be in upper case
+Example : MAX, MIN, etc
+Multi word – Should be in uppercase and each word should be separated by _.
+Example : SQUARE_ROOT , POWER_OF_DIGIT, etc…
+
+✳️LITERALS :
+• The values or data used in a java program is known as literals.
+• The data is generally categorized into two types
+1.Primitive values
+2.Non primitive values
+PRIMITIVE VALUES : Single values data is called as primitive values.
+NON PRIMITIVE VALUES : Reference of an object is known as non primitive value (group of data).
+
+💠PRIMITIVE VALUES :
+Single value data is called as primitive value.
+EXAMPLE :
+Number
+character 
+Boolean.
+✅NUMBER LITERALS :
+● Integer number literals.
+Example : 1 , 4 , 67 , 24 , 35 , etc…
+● Floating number literals.
+Example : 2.3 , 1.0 , 35.5634 , 23.53 , etc…
+✅CHARACTER LITERALS :
+• Anything which is enclosed within a single quote ( ‘ ’ ) is considered as a 
+character literal.
+• The length of character literals should be one.
+EXAMPLE : 
+‘a’ , ‘G’ . ‘1’ , ‘$’, etc…
+✅BOOLEAN LITERALS :
+Boolean literals are used to write logical values. We have two Boolean literals
+• true
+• false
+
+💠NON PRIMITIVE VALUES :
+Reference of an object/address is known as non primitive value (group of data).
+EXAMPLE : String , details of object , etc…
+✅STRING LITERALS :
+• Anything enclosed within a double quote ( “ “ ) is known as String literals. The length of the string literals can be anything.
+• They are case sensitive.
+EXAMPLE : “hello” , “true” , “a” , “123” , “hello@” , “1.1” , etc…
